@@ -2,7 +2,7 @@
 title: "Adpositional Supersenses for Mandarin Chinese"
 collection: publications
 permalink: /publication/Adpositional Supersenses for Mandarin Chinese
-date: 2019
+date: 2019-01-04
 venue: 'Proceedings of the Society for Computation in Linguistics (SCiL) 2019'
 citation: ''
 ---
