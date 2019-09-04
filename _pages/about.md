@@ -14,4 +14,6 @@ redirect_from:
 
 - My research interests lie in how semantic and discourse features are represented in computational linguistics/natural language processing. Specifically, I work on coreference resolution, paraphrasing, and adpositional supersenses.
 
+- I am a member of [CorpLing@GU](https://corpling.uis.georgetown.edu/corpling/) and an affiliated member of [NERT](http://nert.georgetown.edu/).
+
 - I received my Bachelor's Degree in [Nanjing University](https://www.nju.edu.cn/).
