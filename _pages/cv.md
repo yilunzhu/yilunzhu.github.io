@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-[Click to view my Resume](http://yilunzhu.github.io/files/resume.pdf)
+[Click to view my Resume.](http://yilunzhu.github.io/files/resume.pdf)
 
 My curriculum vitae is coming soon.
