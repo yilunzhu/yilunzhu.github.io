@@ -1,7 +1,7 @@
 ---
 title: "A Corpus of Adpositional Supersenses for Mandarin Chinese"
 collection: publications
-permalink: https://www.aclweb.org/anthology/2020.lrec-1.733.pdf
+permalink: https://www.aclweb.org/anthology/2020.lrec-1.733/
 excerpt: ''
 date: 2020-03-18
 venue: 'Proceedings of The 12th Language Resources and Evaluation Conference (LREC 2020)'
