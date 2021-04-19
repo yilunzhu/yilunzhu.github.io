@@ -6,4 +6,6 @@ excerpt: ''
 date: 2019-01-04
 venue: 'Proceedings of the Society for Computation in Linguistics (SCiL) at LSA 2019 Annual Meeting'
 ---
-**Zhu, Yilun**; Liu, Yang; Peng, Siyao; Blodgett, Austin; Zhao, Yushi; and Schneider, Nathan (2019). &quot;Adpositional Supersenses for Mandarin Chinese.&quot; <i>Proceedings of the Society for Computation in Linguistics (SCiL) at LSA 2019 Annual Meeting</i>. New York, NY, Vol.2, Artice 40.
+- Y. Zhu</b>, Yang Liu, Siyao Peng, Austin Blodgett, Yushi Zhao, and Nathan Schneider. Adpositional supersenses for mandarin chinese.  In <i>SCiL@LSA2019</i>. New York, NY, Vol.2, Artice 40.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [\[paper\]](https://arxiv.org/abs/1812.02317) [\[data\]](https://github.com/nert-nlp/Chinese-SNACS/)
