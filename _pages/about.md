@@ -12,7 +12,7 @@ redirect_from:
 
 - I am a Ph.D. student in the Department of Linguistics at Georgetown University, working with Dr. <a href="https://corpling.uis.georgetown.edu/amir/">Amir Zeldes</a> and Dr. <a href="http://people.cs.georgetown.edu/nschneid/">Nathan Schneider</a>.
 
-- My research interests lie in how semantic and discourse features are represented in computational linguistics/natural language processing. Specifically, I work on coreference resolution, which is a idscoure-level task identifying all coreferent relations in a given document.
+- My research interests lie in CL & NLP. Specifically, I'm interested in how semantic and discourse features are represented in natural languages. Currently, I'm working on coreference resolution, a idscoure-level task aiming to identify coreferent relations in documents.
 
 - I am a member of <a href="https://corpling.uis.georgetown.edu/corpling/">CorpLing@GU</a>, <a href="http://nert.georgetown.edu/">NERT</a> and <a href="http://people.cs.georgetown.edu/nschneid/GUCL/">GUCL</a>.
 
