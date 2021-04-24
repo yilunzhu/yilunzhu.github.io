@@ -10,4 +10,4 @@ location: ""
 ---
 - LING-001: Introduction to Language
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Teaching Assistant</i> &emsp; Spring 2020
+&emsp; <i>Teaching Assistant</i> &emsp; Spring 2020
