@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-05-15 07:59:00-0400
+date: 2023-05-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-If you are interested in multilingual conference resolution, join our <a href="https://ufal.mff.cuni.cz/corefud/crac22">CRAC 2022 Shared Task on Multilingual Coreference Resolution</a>
+I will join Apple as a summer intern
