@@ -5,24 +5,51 @@
       "location": "United States",
       "area": "Computational Linguistics",
       "studyType": "Ph.D.",
-      "startDate": "2017-08-31",
-      "endDate": "2024-05-19"
-    },
-    {
-      "institution": "Georgetown University",
-      "location": "United States",
-      "area": "Linguistics",
-      "studyType": "M.S.",
-      "startDate": "2017-08-30",
-      "endDate": "2019-05-19"
+      "Date": "2024"
     },
     {
       "institution": "Nanjing University",
       "location": "China",
       "area": "Major in English Linguistics, Minor in Computer Science",
       "studyType": "B.A.",
-      "startDate": "2013-09-01",
-      "endDate": "2017-06-30"
+      "Date": "2017"
+    }
+  ],
+  "teaching": [
+    {
+      "name": "LING-362: Introduction to Natural Language Processing",
+      "position": "Teaching Assistant",
+      "Date": "Fall, 2019",
+      "Year": "2019",
+      "Semester": "Fall"
+    },
+    {
+      "name": "LING-001: Introduction to Language",
+      "position": "Teaching Assistant",
+      "Date": "Spring, 2020",
+      "Year": "2020",
+      "Semester": "Spring"
+    },
+    {
+      "name": "LING-362: Introduction to Natural Language Processing",
+      "position": "Teaching Assistant",
+      "Date": "Fall, 2021",
+      "Year": "2021",
+      "Semester": "Fall"
+    },
+    {
+      "name": "LING-001: Introduction to Language",
+      "position": "Teaching Assistant",
+      "Date": "Fall, 2022",
+      "Year": "2022",
+      "Semester": "Fall"
+    },
+    {
+      "name": "LING-4400: Introduction to Natural Language Processing",
+      "position": "Teaching Assistant",
+      "Date": "Fall, 2023",
+      "Year": "2023",
+      "Semester": "Fall"
     }
   ]
 }

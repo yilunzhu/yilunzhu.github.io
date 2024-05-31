@@ -6,7 +6,7 @@ title: Yilun Zhu (朱逸伦) # the website title (if blank, full name will be us
 first_name: Yilun
 middle_name: ""
 last_name: Zhu
-email: yz565@georgetown.edu
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -129,9 +129,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name:  # blog_name will be displayed in your blog page
+blog_description: 
+permalink: 
 lsi: false # produce an index for related posts
 
 # Pagination
@@ -164,13 +164,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -615,3 +615,4 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 jsonresume:
   - education
+  - teaching
