@@ -23,4 +23,4 @@ I am a member of <a href="https://corpling.uis.georgetown.edu/corpling/">CorpLin
 
 I am a reviewer of multiple NLP conferences, including ACL, EMNLP, NAACL, EACL, ARR, and related workshops.
 
-I am a fan of soccer, Go game (围棋), Sudoku, cooking, etc.
+I am a fan of soccer, Go game (围棋), video games, cooking, etc.

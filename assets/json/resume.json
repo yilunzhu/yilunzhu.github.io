@@ -51,5 +51,27 @@
       "Year": "2023",
       "Semester": "Fall"
     }
+  ],
+  "service": [
+    {
+      "name": "Review",
+      "icon": "fa-solid fa-search",
+      "keywords": [
+        "Reviewer, ACL Rolling Review (ARR)",
+        "Reviewer, EMNLP 2023",
+        "Reviewer, ACL 2023",
+        "Reviewer, EMNLP 2022",
+        "Reviewer, LAW-XVI 2022",
+        "Reviewer, SCiL 2022",
+        "Program Committee, CRAC 2021-2023"
+      ]
+    },
+    {
+      "name": "Shared Task",
+      "icon": "fa-solid fa-handshake",
+      "keywords": [
+        "Co-organizer, CRAC 2022 Shared Task on Multilingual Coreference Resolution"
+      ]
+    }
   ]
 }

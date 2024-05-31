@@ -616,3 +616,4 @@ jekyll_get_json:
 jsonresume:
   - education
   - teaching
+  - service
