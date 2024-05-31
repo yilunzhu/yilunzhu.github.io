@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Discourse":
+  color: "#50597F"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Coreference":
+  color: "#9F5050"
 
-"Vision":
-  color: "#009f36"
+"Corpus":
+  color: "#509F50"
+
+"LLM Evaluation":
+  color: "#9F7F50"
