@@ -3,15 +3,19 @@
     {
       "institution": "Georgetown University",
       "location": "United States",
-      "area": "Computational Linguistics",
-      "studyType": "Ph.D.",
+      "studyType": "Doctoral",
       "Date": "2024"
+    },
+    {
+      "institution": "Georgetown University",
+      "location": "United States",
+      "studyType": "Master",
+      "Date": "2019"
     },
     {
       "institution": "Nanjing University",
       "location": "China",
-      "area": "Major in English Linguistics, Minor in Computer Science",
-      "studyType": "B.A.",
+      "studyType": "Bachelor",
       "Date": "2017"
     }
   ],
