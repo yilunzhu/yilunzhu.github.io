@@ -15,11 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the Department of Linguistics at Georgetown University, working with <a href="https://gucorpling.org/amir/">Amir Zeldes</a> and <a href="https://people.cs.georgetown.edu/nschneid/">Nathan Schneider</a>. Currently I'm working on my Dissertation about coreference resolution under the supervison of Amir Zeldes, Nathan Schneider, <a href="https://cemantix.org/">Sameer Pradhan</a>, and <a href="https://www.cs.utexas.edu/~gdurrett/">Greg Durrett</a>.
+I'm a Postdoctoral Scientist at Amazon. My research interests lie in Computational Linguistics and Natural Language Processing and focus on the alignment between machine learning models and human intelligence. Specifically, I'm interested in NLU, model generalization, LLM evaluation, corpus annotation, and cognitive science.
 
-My research interests lie in CL & NLP. Specifically, I'm interested in aligning machine learning models with human intelligence, language understanding, model generalization, LLM evaluation, and corpus annotation.
-
-I am a member of <a href="https://corpling.uis.georgetown.edu/corpling/">CorpLing@GU</a>, <a href="http://nert.georgetown.edu/">NERT</a> and <a href="http://people.cs.georgetown.edu/nschneid/GUCL/">GUCL</a>.
+I received my PhD from the Department of Linguistics at Georgetown University, working with <a href="https://gucorpling.org/amir/">Amir Zeldes</a> and <a href="https://people.cs.georgetown.edu/nschneid/">Nathan Schneider</a>. Currently I'm working on my Dissertation about coreference resolution under the supervison of Amir Zeldes, Nathan Schneider, <a href="https://cemantix.org/">Sameer Pradhan</a>, and <a href="https://www.cs.utexas.edu/~gdurrett/">Greg Durrett</a>. During my PhD, I worked on discouse-level Natural Language Understanding, including coreference resolution, discourse parsing. I was a member of <a href="https://corpling.uis.georgetown.edu/corpling/">CorpLing@GU</a>, <a href="http://nert.georgetown.edu/">NERT</a> and <a href="http://people.cs.georgetown.edu/nschneid/GUCL/">GUCL</a>.
 
 I am a reviewer of multiple NLP conferences, including ACL, EMNLP, NAACL, EACL, ARR, and related workshops.
 
