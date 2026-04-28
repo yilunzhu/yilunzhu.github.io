@@ -807,7 +807,9 @@ footer.sticky-bottom {
           margin-bottom: 0.25rem;
           font-size: 0.78rem;
           border-radius: 3px;
-          transition: color 0.15s ease, background-color 0.15s ease;
+          transition:
+            color 0.15s ease,
+            background-color 0.15s ease;
 
           &:hover {
             color: white;

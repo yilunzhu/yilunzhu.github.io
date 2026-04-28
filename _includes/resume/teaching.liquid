@@ -1,6 +1,6 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign semesters = "Spring,Summer,Fall,Winter" | split: "," %}
-  {% assign sorted_teaching = "" | split: "" %}
+  {% assign semesters = 'Spring,Summer,Fall,Winter' | split: ',' %}
+  {% assign sorted_teaching = '' | split: '' %}
 
   {% for course in site.data.resume.teaching %}
     {% assign semester_index = semesters | index_of: course.Semester %}
@@ -8,7 +8,7 @@
     {% assign course = course | merge: sortable_date %}
     {% assign sorted_teaching = sorted_teaching | push: course %}
   {% endfor %}
-  
+
   {% assign sorted_teaching = sorted_teaching | sort: 'sortable_date' | reverse %}
 
   {% for content in sorted_teaching %}

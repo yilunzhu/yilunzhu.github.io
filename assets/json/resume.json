@@ -78,36 +78,22 @@
     {
       "name": "Area Chair",
       "icon": "fa-solid fa-user-tie",
-      "keywords": [
-        "ACL Rolling Review (ARR)"
-      ]
+      "keywords": ["ACL Rolling Review (ARR)"]
     },
     {
       "name": "Reviewer",
       "icon": "fa-solid fa-search",
-      "keywords": [
-        "ACL Rolling Review (ARR)",
-        "ACL 2023",
-        "EMNLP 2022, 2023",
-        "NAACL",
-        "EACL",
-        "LAW-XVI 2022",
-        "SCiL 2022"
-      ]
+      "keywords": ["ACL Rolling Review (ARR)", "ACL 2023", "EMNLP 2022, 2023", "NAACL", "EACL", "LAW-XVI 2022", "SCiL 2022"]
     },
     {
       "name": "Program Committee",
       "icon": "fa-solid fa-users",
-      "keywords": [
-        "CRAC 2021-2023"
-      ]
+      "keywords": ["CRAC 2021-2023"]
     },
     {
       "name": "Shared Task Organizer",
       "icon": "fa-solid fa-handshake",
-      "keywords": [
-        "Co-organizer, CRAC 2022 Shared Task on Multilingual Coreference Resolution"
-      ]
+      "keywords": ["Co-organizer, CRAC 2022 Shared Task on Multilingual Coreference Resolution"]
     }
   ]
 }
