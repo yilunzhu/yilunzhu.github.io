@@ -1,21 +1,39 @@
 {
+  "work": [
+    {
+      "name": "Apple",
+      "position": "Machine Learning Research Engineer",
+      "startDate": "2026",
+      "location": "United States"
+    },
+    {
+      "name": "Amazon",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2025",
+      "endDate": "2026",
+      "location": "United States"
+    }
+  ],
   "education": [
     {
       "institution": "Georgetown University",
       "location": "United States",
-      "studyType": "Doctoral",
+      "area": "Computational Linguistics",
+      "studyType": "Ph.D.",
       "Date": "2024"
     },
     {
       "institution": "Georgetown University",
       "location": "United States",
-      "studyType": "Master",
+      "area": "Linguistics",
+      "studyType": "M.S.",
       "Date": "2019"
     },
     {
       "institution": "Nanjing University",
       "location": "China",
-      "studyType": "Bachelor",
+      "studyType": "B.A.",
+      "area": "English Linguistics",
       "Date": "2017"
     }
   ],
@@ -58,20 +76,34 @@
   ],
   "service": [
     {
-      "name": "Review",
-      "icon": "fa-solid fa-search",
+      "name": "Area Chair",
+      "icon": "fa-solid fa-user-tie",
       "keywords": [
-        "Reviewer, ACL Rolling Review (ARR)",
-        "Reviewer, EMNLP 2023",
-        "Reviewer, ACL 2023",
-        "Reviewer, EMNLP 2022",
-        "Reviewer, LAW-XVI 2022",
-        "Reviewer, SCiL 2022",
-        "Program Committee, CRAC 2021-2023"
+        "ACL Rolling Review (ARR)"
       ]
     },
     {
-      "name": "Shared Task",
+      "name": "Reviewer",
+      "icon": "fa-solid fa-search",
+      "keywords": [
+        "ACL Rolling Review (ARR)",
+        "ACL 2023",
+        "EMNLP 2022, 2023",
+        "NAACL",
+        "EACL",
+        "LAW-XVI 2022",
+        "SCiL 2022"
+      ]
+    },
+    {
+      "name": "Program Committee",
+      "icon": "fa-solid fa-users",
+      "keywords": [
+        "CRAC 2021-2023"
+      ]
+    },
+    {
+      "name": "Shared Task Organizer",
       "icon": "fa-solid fa-handshake",
       "keywords": [
         "Co-organizer, CRAC 2022 Shared Task on Multilingual Coreference Resolution"

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper gets accepted to LERC-COLING 2024 (oral)
+One paper gets accepted to LREC-COLING 2024 (oral)
