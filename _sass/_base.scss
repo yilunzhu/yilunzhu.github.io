@@ -205,6 +205,30 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+@media (max-width: 575px) {
+  .post > article {
+    display: flex;
+    flex-wrap: wrap;
+
+    .profile {
+      float: none !important;
+      order: 2;
+      width: 60%;
+      margin: 1rem auto;
+    }
+
+    .clearfix {
+      order: 1;
+      width: 100%;
+    }
+
+    > * {
+      order: 3;
+      width: 100%;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;

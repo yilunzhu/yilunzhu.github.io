@@ -1,0 +1,40 @@
+name: Broken links check
+
+on:
+  schedule:
+    - cron: "0 9 1 * *" # 1st of every month at 9am UTC
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+
+      - name: Build site 🔧
+        run: |
+          pip3 install --upgrade jupyter
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Check links 🔗
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-mail
+            --exclude 'localhost'
+            --exclude '127\.0\.0\.1'
+            --exclude 'clustrmaps\.com'
+            --timeout 30
+            --max-retries 3
+            --accept 200,403,429
+            _site
+          fail: true

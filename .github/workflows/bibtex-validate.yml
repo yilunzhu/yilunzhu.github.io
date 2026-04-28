@@ -1,0 +1,77 @@
+name: BibTeX validation
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "_bibliography/**"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "_bibliography/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install bibtexparser 💾
+        run: pip install 'bibtexparser>=2.0.0b1'
+
+      - name: Validate BibTeX 🔎
+        run: |
+          python3 - <<'PYEOF'
+          import bibtexparser
+          import sys
+
+          errors = []
+
+          for bib_file in sorted(__import__('pathlib').Path('_bibliography').glob('*.bib')):
+              print(f"Checking {bib_file}...")
+              text = bib_file.read_text()
+
+              # Strip Jekyll front matter (--- ... ---)
+              if text.startswith('---'):
+                  end = text.find('---', 3)
+                  if end != -1:
+                      text = text[end + 3:]
+
+              try:
+                  library = bibtexparser.parse_string(text)
+              except Exception as e:
+                  errors.append(f"{bib_file}: parse error: {e}")
+                  continue
+
+              # Report parsing errors
+              for entry in library.failed_blocks:
+                  errors.append(f"{bib_file}: failed to parse block: {entry.raw}")
+
+              # Check for duplicate keys
+              keys = [entry.key for entry in library.entries]
+              seen = set()
+              for key in keys:
+                  if key in seen:
+                      errors.append(f"{bib_file}: duplicate key '{key}'")
+                  seen.add(key)
+
+              print(f"  {len(library.entries)} entries parsed, {len(library.failed_blocks)} failures")
+
+          if errors:
+              print("\n❌ Validation errors:")
+              for e in errors:
+                  print(f"  - {e}")
+              sys.exit(1)
+          else:
+              print("\n✅ All BibTeX files are valid")
+          PYEOF
