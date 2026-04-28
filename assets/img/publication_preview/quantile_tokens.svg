@@ -1,0 +1,125 @@
+<svg width="910" height="310" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker orient="auto" refY="3.5" refX="9" markerHeight="7" markerWidth="10" id="arrowhead">
+   <polygon fill="#5A6A7A" points="0 0.5, 9 3.5, 0 6.5"/>
+  </marker>
+  <linearGradient y2="100%" x2="0%" y1="0%" x1="0%" id="distGrad1">
+   <stop stop-opacity="0.45" stop-color="#5B7FB5" offset="0%"/>
+   <stop stop-opacity="0.05" stop-color="#5B7FB5" offset="100%"/>
+  </linearGradient>
+  <linearGradient y2="100%" x2="0%" y1="0%" x1="0%" id="distGrad2">
+   <stop stop-opacity="0.5" stop-color="#C0704A" offset="0%"/>
+   <stop stop-opacity="0.08" stop-color="#C0704A" offset="100%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect stroke-width="1" stroke="#A8C8A8" fill="#EDF5ED" rx="6" height="300" width="200" y="5" x="10"/>
+  <rect fill="#5A9A5A" rx="6" height="24" width="200" y="5" x="10"/>
+  <rect fill="#5A9A5A" height="8" width="200" y="21" x="10"/>
+  <text fill="white" text-anchor="middle" font-weight="700" font-size="12" font-family="Helvetica, Arial, sans-serif" y="22" x="110">Input</text>
+  <rect stroke-width="1" stroke="#5A9A5A" fill="white" rx="4" height="55" width="180" y="38" x="20"/>
+  <text fill="#333" text-anchor="middle" font-weight="600" font-size="10" font-family="Helvetica, Arial, sans-serif" y="55" x="110">Query Text</text>
+  <text fill="#555" text-anchor="middle" font-style="italic" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="70" x="110">"Cozy 2BR apartment in</text>
+  <text fill="#555" text-anchor="middle" font-style="italic" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="82" x="110">downtown Seattle..."</text>
+  <text fill="#2D5A2D" text-anchor="middle" font-weight="600" font-size="10" font-family="Helvetica, Arial, sans-serif" y="110" x="110">Retrieved Neighbors</text>
+  <rect stroke="#8BBB8B" fill="white" rx="4" height="58" width="180" y="118" x="20"/>
+  <text fill="#444" font-style="italic" font-size="8" font-family="Helvetica, Arial, sans-serif" y="132" x="30">"Modern studio downtown"</text>
+  <path stroke="#5B7FB5" stroke-width="1.2" fill="url(#distGrad1)" d="M45,164 C55,163 65,160 75,154 C85,148 95,143 103,141 C107,140 113,140 117,141 C125,143 135,148 145,154 C155,160 165,163 175,164 Z"/>
+  <text fill="#5B7FB5" text-anchor="middle" font-weight="500" font-size="7" font-family="Helvetica, Arial, sans-serif" y="174" x="110">$85 | $120 | $165</text>
+  <rect stroke="#8BBB8B" fill="white" rx="4" height="58" width="180" y="180" x="20"/>
+  <text fill="#444" font-style="italic" font-size="8" font-family="Helvetica, Arial, sans-serif" y="194" x="30">"Spacious 2BR near park"</text>
+  <path stroke="#5B7FB5" stroke-width="1.2" fill="url(#distGrad1)" d="M45,226 C52,224 60,219 68,213 C74,208 80,205 86,203 C92,202 98,202 102,204 C108,207 118,214 128,219 C140,223 155,225 165,226 L175,226 Z"/>
+  <text fill="#5B7FB5" text-anchor="middle" font-weight="500" font-size="7" font-family="Helvetica, Arial, sans-serif" y="236" x="110">$95 | $140 | $190</text>
+  <rect stroke="#8BBB8B" fill="white" rx="4" height="58" width="180" y="242" x="20"/>
+  <text fill="#444" font-style="italic" font-size="8" font-family="Helvetica, Arial, sans-serif" y="256" x="30">"Charming flat, city view"</text>
+  <path stroke="#5B7FB5" stroke-width="1.2" fill="url(#distGrad1)" d="M45,288 C52,287 60,284 67,280 C73,276 78,273 83,272 C88,271 92,272 96,275 C100,277 103,277 106,275 C110,272 115,271 120,272 C125,273 130,276 137,280 C144,284 155,287 175,288 Z"/>
+  <text fill="#5B7FB5" text-anchor="middle" font-weight="500" font-size="7" font-family="Helvetica, Arial, sans-serif" y="298" x="110">$90 | $130 | $175</text>
+  <line marker-end="url(#arrowhead)" stroke-width="2" stroke="#666" y2="155" x2="243" y1="155" x1="215"/>
+  <rect stroke-width="1" stroke="#A8B8C8" fill="#EBF0F5" rx="6" height="300" width="400" y="5" x="250"/>
+  <rect fill="#5A7A9A" rx="6" height="24" width="400" y="5" x="250"/>
+  <rect fill="#5A7A9A" height="8" width="400" y="21" x="250"/>
+  <text fill="white" text-anchor="middle" font-weight="700" font-size="12" font-family="Helvetica, Arial, sans-serif" y="22" x="450">Architecture Comparison</text>
+  <rect stroke-width="1" stroke="#AAAAAA" fill="white" rx="5" height="260" width="185" y="35" x="260"/>
+  <text fill="#555" text-anchor="middle" font-weight="600" font-size="10.5" font-family="Helvetica, Arial, sans-serif" y="53" x="352">Baseline (Vedula et al., 2025)</text>
+  <rect stroke="#AAAAAA" fill="#F4F4F4" rx="4" height="55" width="155" y="65" x="275"/>
+  <text fill="#444" text-anchor="middle" font-weight="600" font-size="9.5" font-family="Helvetica, Arial, sans-serif" y="87" x="352">Transformer</text>
+  <text fill="#888" text-anchor="middle" font-size="7.5" font-family="Helvetica, Arial, sans-serif" y="110" x="352">[x1, ..., xn]</text>
+  <line stroke="#999" stroke-width="1.2" y2="135" x2="352" y1="120" x1="352"/>
+  <rect stroke="#C4A35A" fill="#F5EACC" rx="4" height="28" width="90" y="135" x="307"/>
+  <text fill="#7A5C1F" text-anchor="middle" font-weight="600" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="150" x="352">Shared h</text>
+  <text fill="#9A7A3A" text-anchor="middle" font-size="7" font-family="Helvetica, Arial, sans-serif" y="160" x="352">(single representation)</text>
+  <line stroke="#999" stroke-width="1" y2="180" x2="300" y1="163" x1="352"/>
+  <line stroke="#999" stroke-width="1" y2="180" x2="352" y1="163" x1="352"/>
+  <line stroke="#999" stroke-width="1" y2="180" x2="404" y1="163" x1="352"/>
+  <rect stroke="#999" fill="#E5E5E5" rx="3" height="22" width="35" y="180" x="283"/>
+  <text fill="#555" text-anchor="middle" font-weight="600" font-size="7" font-family="Helvetica, Arial, sans-serif" y="194" x="300">W1</text>
+  <text fill="#999" text-anchor="middle" font-size="9" font-family="Helvetica, Arial, sans-serif" y="193" x="326">...</text>
+  <rect stroke="#999" fill="#E5E5E5" rx="3" height="22" width="35" y="180" x="335"/>
+  <text fill="#555" text-anchor="middle" font-weight="600" font-size="7" font-family="Helvetica, Arial, sans-serif" y="194" x="352">W50</text>
+  <text fill="#999" text-anchor="middle" font-size="9" font-family="Helvetica, Arial, sans-serif" y="193" x="378">...</text>
+  <rect stroke="#999" fill="#E5E5E5" rx="3" height="22" width="35" y="180" x="387"/>
+  <text fill="#555" text-anchor="middle" font-weight="600" font-size="7" font-family="Helvetica, Arial, sans-serif" y="194" x="404">WQ</text>
+  <line stroke="#999" stroke-width="0.8" y2="218" x2="300" y1="202" x1="300"/>
+  <line stroke="#999" stroke-width="0.8" y2="218" x2="352" y1="202" x1="352"/>
+  <line stroke="#999" stroke-width="0.8" y2="218" x2="404" y1="202" x1="404"/>
+  <text fill="#555" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="230" x="300">q1</text>
+  <text fill="#555" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="230" x="352">q50</text>
+  <text fill="#555" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="230" x="404">qQ</text>
+  <rect stroke="#CCCCCC" fill="#F5F5F5" rx="3" height="18" width="170" y="247" x="267"/>
+  <text fill="#777" text-anchor="middle" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="259" x="352">Indirect: shared repr, K heads</text>
+  <rect stroke-width="1.5" stroke="#4A7FB5" fill="#F0F5FA" rx="5" height="260" width="185" y="35" x="455"/>
+  <text fill="#2D5A8A" text-anchor="middle" font-weight="700" font-size="10.5" font-family="Helvetica, Arial, sans-serif" y="53" x="547">Quantile Tokens (Ours)</text>
+  <rect stroke-width="1.2" stroke="#4A7FB5" fill="#E8F0F8" rx="4" height="85" width="155" y="65" x="470"/>
+  <text fill="#2D5A8A" text-anchor="middle" font-weight="600" font-size="9.5" font-family="Helvetica, Arial, sans-serif" y="83" x="547">Transformer</text>
+  <text fill="#5A8ABF" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="97" x="547">with Self-Attention</text>
+  <text fill="#555" text-anchor="middle" font-size="7" font-family="Helvetica, Arial, sans-serif" y="114" x="547">[x1, ..., xn, Q1, ..., QQ]</text>
+  <text fill="#4A7FB5" text-anchor="middle" font-size="7" font-family="Helvetica, Arial, sans-serif" y="133" x="547">each Qk attends to input</text>
+  <rect stroke="#4A7FB5" fill="#C4D8EC" rx="3" height="24" width="38" y="158" x="478"/>
+  <text fill="#2D5A8A" text-anchor="middle" font-weight="600" font-size="8" font-family="Helvetica, Arial, sans-serif" y="173" x="497">h1</text>
+  <rect stroke="#4A7FB5" fill="#C4D8EC" rx="3" height="24" width="38" y="158" x="528"/>
+  <text fill="#2D5A8A" text-anchor="middle" font-weight="600" font-size="8" font-family="Helvetica, Arial, sans-serif" y="173" x="547">h50</text>
+  <rect stroke="#4A7FB5" fill="#C4D8EC" rx="3" height="24" width="38" y="158" x="578"/>
+  <text fill="#2D5A8A" text-anchor="middle" font-weight="600" font-size="8" font-family="Helvetica, Arial, sans-serif" y="173" x="597">hQ</text>
+  <line stroke="#4A7FB5" stroke-width="1.5" y2="198" x2="497" y1="182" x1="497"/>
+  <line stroke="#4A7FB5" stroke-width="1.5" y2="198" x2="547" y1="182" x1="547"/>
+  <line stroke="#4A7FB5" stroke-width="1.5" y2="198" x2="597" y1="182" x1="597"/>
+  <rect stroke="#2D5A8A" fill="#4A7FB5" rx="3" height="20" width="140" y="198" x="477"/>
+  <text fill="white" text-anchor="middle" font-weight="600" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="211" x="547">Shared W</text>
+  <line stroke="#4A7FB5" stroke-width="1" y2="233" x2="497" y1="218" x1="497"/>
+  <line stroke="#4A7FB5" stroke-width="1" y2="233" x2="547" y1="218" x1="547"/>
+  <line stroke="#4A7FB5" stroke-width="1" y2="233" x2="597" y1="218" x1="597"/>
+  <text font-weight="600" fill="#2D5A8A" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="244" x="497">q1</text>
+  <text font-weight="600" fill="#2D5A8A" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="244" x="547">q50</text>
+  <text font-weight="600" fill="#2D5A8A" text-anchor="middle" font-size="8" font-family="Helvetica, Arial, sans-serif" y="244" x="597">qQ</text>
+  <rect stroke="#B0C8E0" fill="#E8F0F8" rx="3" height="18" width="170" y="255" x="462"/>
+  <text font-weight="500" fill="#2D5A8A" text-anchor="middle" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="267" x="547">Direct: input, Qk, quantile</text>
+  <line marker-end="url(#arrowhead)" stroke-width="2" stroke="#666" y2="155" x2="683" y1="155" x1="655"/>
+  <rect stroke-width="1" stroke="#D0B8A0" fill="#F8F1E8" rx="6" height="300" width="210" y="5" x="690"/>
+  <rect fill="#B07A4A" rx="6" height="24" width="210" y="5" x="690"/>
+  <rect fill="#B07A4A" height="8" width="210" y="21" x="690"/>
+  <text fill="white" text-anchor="middle" font-weight="700" font-size="12" font-family="Helvetica, Arial, sans-serif" y="22" x="795">Output</text>
+  <rect stroke="#C0956A" fill="white" rx="4" height="195" width="185" y="38" x="702"/>
+  <text fill="#7A5028" text-anchor="middle" font-weight="600" font-size="9.5" font-family="Helvetica, Arial, sans-serif" y="56" x="795">Predicted Distribution</text>
+  <line x1="720" y1="200" x2="720" y2="80" stroke="#555" stroke-width="1"/>
+  <line x1="720" y1="200" x2="870" y2="200" stroke="#555" stroke-width="1"/>
+  <text transform="rotate(-90, 712, 140)" x="712" y="143" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#555">Density</text>
+  <text x="795" y="226" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7.5" fill="#555">Price ($)</text>
+  <path stroke-width="1.5" stroke="#C0704A" fill="url(#distGrad2)" d="M 720,200 C 725,199 730,197 735,193 C 740,188 745,181 750,172 C 755,162 760,151 765,140 C 770,130 775,121 780,114 C 785,109 790,106 795,105 C 800,106 805,109 810,114 C 815,121 820,130 825,140 C 830,150 835,160 840,169 C 845,177 850,184 855,189 C 860,193 865,196 870,198 L 870,200 Z"/>
+  <line stroke-width="1" stroke="#C0704A" stroke-dasharray="3,2" y2="172" x2="750" y1="200" x1="750"/>
+  <circle cx="750" cy="172" r="2.5" fill="#C0704A" stroke="white" stroke-width="0.8"/>
+  <line stroke-width="1" stroke="#C0704A" stroke-dasharray="3,2" y2="105" x2="795" y1="200" x1="795"/>
+  <circle cx="795" cy="105" r="2.5" fill="#C0704A" stroke="white" stroke-width="0.8"/>
+  <line stroke-width="1" stroke="#C0704A" stroke-dasharray="3,2" y2="169" x2="840" y1="200" x1="840"/>
+  <circle cx="840" cy="169" r="2.5" fill="#C0704A" stroke="white" stroke-width="0.8"/>
+  <line x1="750" y1="200" x2="750" y2="204" stroke="#555" stroke-width="0.8"/>
+  <line x1="795" y1="200" x2="795" y2="204" stroke="#555" stroke-width="0.8"/>
+  <line x1="840" y1="200" x2="840" y2="204" stroke="#555" stroke-width="0.8"/>
+  <text x="750" y="213" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#666">$95</text>
+  <text x="795" y="213" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#666">$135</text>
+  <text x="840" y="213" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#666">$185</text>
+  <text x="742" y="163" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="7" fill="#C0704A">q1</text>
+  <text x="795" y="96" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="7" fill="#C0704A">q50</text>
+  <text x="848" y="160" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="7" fill="#C0704A">qQ</text>
+  <text fill="#7A5028" text-anchor="middle" font-style="italic" font-size="8.5" font-family="Helvetica, Arial, sans-serif" y="248" x="795">Full distribution via 99 quantiles</text>
+ </g>
+</svg>
