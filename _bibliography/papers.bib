@@ -1,6 +1,16 @@
 ---
 ---
 
+@inproceedings{glavas-etal-2026-ippd,
+    title = "Intra-Prompt Parallel Decoding for Common-Context Question Answering",
+    author = "Glavas, Theodore and Vedula, Nikhita and Dhyani, Dushyanta and Valkanas, Antonios and Zhu, Yilun and Malmasi, Shervin",
+    booktitle = "EMNLP 2026",
+    year = "2026",
+    arxiv = "2609.05707",
+    preview = ippd.png,
+    abstract = "In common-context question answering (CCQA) tasks, multiple input questions share a common context to base their answers from. However, Large Language Models typically generate each answer using an independent prompt. While existing batching and caching techniques help improve parallelism and reduce repeated computations, the separation of questions across prompts limits the achievable speedup, as modern GPUs are underutilized due to a memory bottleneck during attention. We present Intra-Prompt Parallel Decoding (IPPD), a novel inference method that answers multiple common-context questions in parallel within a single prompt. IPPD directly addresses the bottleneck by efficiently sharing both memory and computation during the attention process, as the next token for every question is decoded in a single inference step. IPPD uses virtual position IDs and attention mask manipulation to generate the same output as standard prompting without requiring fine-tuning or any changes to the LLM architecture. Since all parallelism occurs within a prompt, IPPD is fully compatible with batched inference, even when each prompt features a different context. Our experiments show that IPPD delivers up to 7X the effective throughput as standard decoding without quality degradation, and outperforms prefix caching with PagedAttention in most settings.",
+}
+
 @inproceedings{zhu-etal-2026-quantile,
     title = "Text-to-Distribution Prediction with Quantile Tokens and Neighbor Context",
     author = "Zhu, Yilun and Zhuang, Yuan and Vedula, Nikhita and Dhyani, Dushyanta and Xu, Shaoyuan and Li, Moyan and Bayati, Mohsen and Wang, Bryan and Malmasi, Shervin",
