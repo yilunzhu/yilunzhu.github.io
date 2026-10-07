@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One <a href="https://arxiv.org/pdf/2609.05707">paper</a> gets accepted to EMNLP 2026 🎉
+One paper gets accepted to EMNLP 2026
